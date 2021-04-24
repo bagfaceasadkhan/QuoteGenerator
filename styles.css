@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+body {
+  height: 100vh;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #845ec2;
+  font-family: Architects Daughter;
+}
+
+.quote-container {
+  width: auto;
+  max-width: 900px;
+  background-color: #fbeaff;
+  padding: 50px 30px;
+  border-radius: 10px;
+}
+
+.author-text {
+  margin-top: 50px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.copy-quote {
+  margin-top: 20px;
+
+  font-family: Architects Daughter;
+  font-size: 1.5rem;
+  font-size: 1rem;
+  background-color: #00c9a7;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.new-quote {
+  margin-top: 20px;
+
+  font-family: Architects Daughter;
+  font-size: 1.5rem;
+  font-size: 1rem;
+  background-color: #00c9a7;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+.new-quote:hover {
+  transition-duration: 0.5s;
+  background-color: #845ec2;
+  color: white;
+}
+.copy-quote:hover {
+  transition-duration: 0.5s;
+  background-color: #845ec2;
+  color: white;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+  .new-quote {
+    font-size: 0.5rem;
+  }
+  .copy-quote {
+    font-size: 0.5rem;
+  }
+}
